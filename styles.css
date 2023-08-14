@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first_page {
+  min-height: 100vh;
+
+  background: url("./img/skydroneimg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.first_page-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 48px;
+  width: 100%;
+  padding: 24px 64px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  z-index: 100;
+}
+
+.logo_block {
+  height: 45px;
+  width: auto;
+
+  display: flex;
+  padding: 0px 8.326px;
+  align-items: center;
+  gap: 4px;
+}
+
+.text_for_logo {
+  color: #393939;
+  font-family: Raleway;
+  font-size: 30.062px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.navbar_items {
+  width: 455px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbar_item1 {
+  width: 51px;
+  height: 24px;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+}
+.navbar_item1:hover {
+  border-bottom: 2px solid orange;
+  scale: 1.1;
+  cursor: pointer;
+}
+.navbar_item1:active {
+  color: orange;
+  scale: 0.9;
+}
+
+.navbar_item2 {
+  width: 65px;
+  height: 24px;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+}
+.navbar_item2:hover {
+  border-bottom: 2px solid orange;
+  scale: 1.1;
+  cursor: pointer;
+}
+.navbar_item2:active {
+  color: orange;
+  scale: 0.9;
+}
+
+.navbar_item3 {
+  width: 110px;
+  height: 24px;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+}
+.navbar_item3:hover {
+  border-bottom: 2px solid orange;
+  scale: 1.1;
+  cursor: pointer;
+}
+.navbar_item3:active {
+  color: orange;
+  scale: 0.9;
+}
+
+.navbar_item4 {
+  width: 85px;
+  height: 24px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+}
+
+.block_for_item4 {
+  width: 133px;
+  height: 48px;
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  border: 1px solid #c4730a;
+  background: #c4730a;
+}
+.block_for_item4:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.block_for_item4:active {
+  scale: 0.9;
+}
+
+.ellipse_image {
+  display: flex;
+  height: 753px;
+  z-index: 90;
+}
+
+.image_text_block {
+  display: flex;
+  width: 560px;
+  height: 272px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 64px;
+  top: 200px;
+}
+
+.image_text_block-title {
+  width: 100%;
+  height: 116px;
+  align-self: stretch;
+  color: #4b4b4b;
+
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.48px;
+}
+.image_text_block-text {
+  width: 100%;
+  height: 60px;
+  align-self: stretch;
+  color: #612b00;
+
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.image_text_block-button {
+  width: 133px;
+  height: 48px;
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #df8928;
+  border-color: #df8928;
+
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.image_text_block-button:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.image_text_block-button:active {
+  scale: 0.9;
+}
