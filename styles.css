@@ -1,12 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* first page styles below */
 .first_page {
   min-height: 100vh;
-
   background: url("./img/skydroneimg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,11 +18,9 @@
   position: absolute;
   top: 0;
   left: 0;
-
   height: 48px;
   width: 100%;
   padding: 24px 64px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +31,6 @@
 .logo_block {
   height: 45px;
   width: auto;
-
   display: flex;
   padding: 0px 8.326px;
   align-items: center;
@@ -50,7 +49,6 @@
 .navbar_items {
   width: 455px;
   height: 48px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,7 +126,7 @@
   height: 24px;
   color: #fff;
   font-family: Raleway;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
@@ -180,7 +178,6 @@
   height: 116px;
   align-self: stretch;
   color: #4b4b4b;
-
   font-family: Raleway;
   font-size: 48px;
   font-style: normal;
@@ -193,7 +190,6 @@
   height: 60px;
   align-self: stretch;
   color: #612b00;
-
   font-family: Raleway;
   font-size: 20px;
   font-style: normal;
@@ -211,7 +207,6 @@
   border-radius: 4px;
   background: #df8928;
   border-color: #df8928;
-
   color: #fff;
   font-family: Raleway;
   font-size: 16px;
@@ -226,3 +221,4 @@
 .image_text_block-button:active {
   scale: 0.9;
 }
+/* first page styles up*/
