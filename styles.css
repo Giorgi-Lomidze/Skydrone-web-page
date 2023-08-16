@@ -400,3 +400,143 @@
   letter-spacing: -0.24px;
 }
 /* second page styles up*/
+
+/* third page styles below*/
+
+.third_page {
+  width: 100%;
+  max-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  padding: 160px 64px 64px 64px;
+  align-items: center;
+  gap: 80px;
+}
+
+.img_on_third_page {
+  width: 616px;
+  height: 640px;
+}
+
+.third_page-first_block {
+  width: 616px;
+  height: 640px;
+
+  display: flex;
+  align-items: start;
+}
+.third_page-second_block {
+  width: 616px;
+  height: 640px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.third_page-second_block-title_block {
+  align-self: stretch;
+  color: #df8928;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.third_page-second_block-text_block {
+  align-self: stretch;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.48px;
+  margin-bottom: 32px;
+}
+
+.conteiner_for_eddition_blocks {
+  width: 616px;
+  height: 242px;
+
+  display: flex;
+  padding: 8px 0px;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.third_page-second_block-eddition_block1 {
+  width: 296px;
+  height: 226px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+.third_page-second_block-eddition_block2 {
+  width: 296px;
+  height: 226px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.circle_icon1 {
+  width: 48px;
+  height: 48px;
+}
+.third_page-second_block-eddition_block1-title {
+  align-self: stretch;
+  color: #4b4b4b;
+
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.24px;
+}
+.third_page-second_block-eddition_block1-text {
+  align-self: stretch;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.circle_icon2 {
+  width: 48px;
+  height: 48px;
+}
+.third_page-second_block-eddition_block2-title {
+  align-self: stretch;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.24px;
+}
+.third_page-second_block-eddition_block2-text {
+  align-self: stretch;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+/* third page styles up*/
