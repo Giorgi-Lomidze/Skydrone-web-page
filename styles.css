@@ -625,13 +625,150 @@
 }
 /* fourth page styles up*/
 
+/* fifth page styles below*/
+.fifth_page {
+  width: 100%;
+  max-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  padding: 160px 64px 64px 64px;
+  align-items: center;
+  gap: 80px;
+}
+
+.img_on_fifth_page {
+  width: 616px;
+  height: 600px;
+}
+
+.fifth_page-second_block {
+  width: 616px;
+  height: 640px;
+  display: flex;
+  align-items: start;
+}
+.fifth_page-first_block {
+  width: 616px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.fifth_page-first_block-title_block {
+  align-self: stretch;
+  color: #df8928;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.fifth_page-first_block-text_block {
+  align-self: stretch;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.48px;
+  margin-bottom: 32px;
+}
+
+.fifth_page_conteiner_for_eddition_blocks {
+  width: 616px;
+  height: 242px;
+
+  display: flex;
+  padding: 8px 0px;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.fifth_page-first_block-eddition_block1 {
+  width: 296px;
+  height: 226px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+.fifth_page-first_block-eddition_block2 {
+  width: 296px;
+  height: 226px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.fifth_page_circle_icon1 {
+  width: 48px;
+  height: 48px;
+}
+.fifth_page-first_block-eddition_block1-title {
+  align-self: stretch;
+  color: #4b4b4b;
+
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.24px;
+}
+.fifth_page-first_block-eddition_block1-text {
+  align-self: stretch;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.fifth_page_circle_icon2 {
+  width: 48px;
+  height: 48px;
+}
+.fifth_page-first_block-eddition_block2-title {
+  align-self: stretch;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.24px;
+}
+.fifth_page-first_block-eddition_block2-text {
+  align-self: stretch;
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+/* fifth page styles up*/
+
 /* sixth page styles below*/
 
 .sixth_page {
   width: 100%;
   height: 150vh;
 
-  background: url("./img/fifthpagebackgroundimage.jpg") no-repeat;
+  background: url("./img/sixthpagebackgroundimage.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 
