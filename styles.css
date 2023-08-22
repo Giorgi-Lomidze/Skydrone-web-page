@@ -1148,6 +1148,10 @@
   font-weight: 700;
   line-height: 150%;
 }
+.seventh_page_footer-main_footer_block-object1-content_block-item1:hover {
+  border-bottom: 3px solid #fff;
+  cursor: pointer;
+}
 .seventh_page_footer-main_footer_block-object1-content_block-item2 {
   width: 67px;
   height: 24px;
@@ -1158,6 +1162,10 @@
   font-weight: 700;
   line-height: 150%;
 }
+.seventh_page_footer-main_footer_block-object1-content_block-item2:hover {
+  border-bottom: 3px solid #fff;
+  cursor: pointer;
+}
 .seventh_page_footer-main_footer_block-object1-content_block-item3 {
   width: 113px;
   height: 24px;
@@ -1167,6 +1175,32 @@
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
+}
+.seventh_page_footer-main_footer_block-object1-content_block-item3:hover {
+  border-bottom: 3px solid #fff;
+  cursor: pointer;
+}
+
+.seventh_page-social_media_svg1 {
+  background-color: #4b4b4b;
+}
+.seventh_page-social_media_svg1:hover {
+  background-color: #7e7e7e;
+  cursor: pointer;
+}
+.seventh_page-social_media_svg2 {
+  background-color: #4b4b4b;
+}
+.seventh_page-social_media_svg2:hover {
+  background-color: #7e7e7e;
+  cursor: pointer;
+}
+.seventh_page-social_media_svg3 {
+  background-color: #4b4b4b;
+}
+.seventh_page-social_media_svg3:hover {
+  background-color: #7e7e7e;
+  cursor: pointer;
 }
 
 .seventh_page_footer-main_footer_block-object2 {
@@ -1198,6 +1232,10 @@
   display: flex;
   place-content: center;
 }
+.seventh_page_footer-main_footer_block-object2-block1-item1:hover {
+  border-bottom: 2px solid #f3f3f3;
+  cursor: pointer;
+}
 .seventh_page_footer-main_footer_block-object2-block1-item2 {
   height: 21px;
   width: 118px;
@@ -1210,6 +1248,10 @@
   display: flex;
   place-content: center;
 }
+.seventh_page_footer-main_footer_block-object2-block1-item2:hover {
+  border-bottom: 2px solid #f3f3f3;
+  cursor: pointer;
+}
 .seventh_page_footer-main_footer_block-object2-block1-item3 {
   height: 21px;
   width: 118px;
@@ -1221,6 +1263,10 @@
   line-height: 150%;
   display: flex;
   place-content: center;
+}
+.seventh_page_footer-main_footer_block-object2-block1-item3:hover {
+  border-bottom: 2px solid #f3f3f3;
+  cursor: pointer;
 }
 
 .seventh_page_footer-main_footer_block-object2-block2 {
