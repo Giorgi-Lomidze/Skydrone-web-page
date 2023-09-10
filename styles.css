@@ -10,7 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* first page styles below */
 .first_page {
   min-height: 100vh;
   background: url("./img/skydroneimg") no-repeat;
@@ -172,7 +171,6 @@ a {
 
 .ellipse_image {
   display: flex;
-  /* height: 754px; */
   height: 100%;
   z-index: 90;
 }
@@ -242,9 +240,6 @@ a {
 .image_text_block-button:active {
   scale: 0.9;
 }
-/* first page styles up*/
-
-/* second page styles below*/
 
 .second_page {
   width: 100%;
@@ -428,9 +423,6 @@ a {
   line-height: 140%;
   letter-spacing: -0.24px;
 }
-/* second page styles up*/
-
-/* third page styles below*/
 
 .third_page {
   width: 100%;
@@ -572,9 +564,6 @@ a {
   font-weight: 400;
   line-height: 150%;
 }
-/* third page styles up*/
-
-/* fourth page styles below*/
 
 .fourth_page {
   width: 100%;
@@ -655,16 +644,13 @@ a {
   font-weight: 400;
   line-height: 150%;
 }
-/* fourth page styles up*/
 
-/* fifth page styles below*/
 .fifth_page {
   width: 100%;
   min-height: 100vh;
   background-color: #fff;
   display: flex;
   padding-right: 64px;
-  /* padding: 160px 64px 64px 64px; */
   justify-content: end;
   align-items: center;
   gap: 80px;
@@ -797,9 +783,6 @@ a {
   font-weight: 400;
   line-height: 150%;
 }
-/* fifth page styles up*/
-
-/* sixth page styles below*/
 
 .sixth_page {
   width: 100%;
@@ -919,9 +902,6 @@ a {
   align-items: center;
   gap: 16px;
 }
-/* sixth page styles up*/
-
-/* seventh page styles below*/
 
 .seventh_page {
   width: 100%;
@@ -1242,6 +1222,7 @@ a {
 .seventh_page-social_media_svg1:hover {
   background-color: #7e7e7e;
   cursor: pointer;
+  transition: 1s ease-out;
 }
 
 .seventh_page-social_media_svg2 {
@@ -1251,6 +1232,7 @@ a {
 .seventh_page-social_media_svg2:hover {
   background-color: #7e7e7e;
   cursor: pointer;
+  transition: 1s ease-out;
 }
 
 .seventh_page-social_media_svg3 {
@@ -1260,6 +1242,7 @@ a {
 .seventh_page-social_media_svg3:hover {
   background-color: #7e7e7e;
   cursor: pointer;
+  transition: 1s ease-out;
 }
 
 .seventh_page_footer-main_footer_block-object2 {
@@ -1346,11 +1329,8 @@ a {
   display: flex;
   place-content: end;
 }
-/* seventh page styles up*/
 
-/* styles for different screen 320px size below*/
 @media (max-width: 320px) {
-  /*1*/
   .first_page {
     height: 590px;
     width: 320px;
@@ -1486,8 +1466,7 @@ a {
   .image_text_block-button:active {
     scale: 0.9;
   }
-  /*1*/
-  /*2*/
+
   .second_page {
     width: 100%;
     min-height: 100vh;
@@ -1569,8 +1548,7 @@ a {
   .second_page_footer {
     display: none;
   }
-  /*2*/
-  /*3*/
+
   .third_page {
     width: 100%;
     max-height: 898px;
@@ -1722,8 +1700,7 @@ a {
     font-weight: 400;
     line-height: 150%;
   }
-  /*3*/
-  /*4*/
+
   .fourth_page {
     margin-top: 100px;
     height: 1448px;
@@ -1804,8 +1781,7 @@ a {
     font-weight: 400;
     line-height: 150%;
   }
-  /*4*/
-  /*5*/
+
   .fifth_page {
     width: 320px;
     min-height: 1200px;
@@ -1960,8 +1936,7 @@ a {
     font-weight: 400;
     line-height: 150%;
   }
-  /*5*/
-  /*6*/
+
   .sixth_page {
     width: 320px;
     height: 1200px;
@@ -2097,8 +2072,7 @@ a {
     width: 237px;
     height: 71px;
   }
-  /*6*/
-  /*7*/
+
   .seventh_page {
     width: 320px;
     height: 1606px;
@@ -2430,6 +2404,7 @@ a {
   .seventh_page-social_media_svg1:hover {
     background-color: #7e7e7e;
     cursor: pointer;
+    transition: 1s ease-out;
   }
 
   .seventh_page-social_media_svg2 {
@@ -2439,6 +2414,7 @@ a {
   .seventh_page-social_media_svg2:hover {
     background-color: #7e7e7e;
     cursor: pointer;
+    transition: 1s ease-out;
   }
 
   .seventh_page-social_media_svg3 {
@@ -2448,6 +2424,7 @@ a {
   .seventh_page-social_media_svg3:hover {
     background-color: #7e7e7e;
     cursor: pointer;
+    transition: 1s ease-out;
   }
 
   .seventh_page_footer-main_footer_block-object2 {
@@ -2530,5 +2507,4 @@ a {
     font-weight: 400;
     line-height: 150%;
   }
-  /*7*/
 }
